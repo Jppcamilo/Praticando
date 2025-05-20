@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
 }
 
 :root{
@@ -16,9 +19,45 @@ body{
     height: 100vh;
 }
 
-#cabecalho{
+.cabecalho{
     background-color: #000;
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+.cabecalho nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.cabecalho nav ul li{
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.nav-link{
+    border-radius: 6px;
+    margin: 30px 0;
+    background-color: #9be89c;
+    padding: 6px 8px;
+    color: #fff;
+}
+
+.treinamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+
+.treinamento div{
+    margin: 10px 0;
+    color: #000;
 }
